@@ -132,3 +132,11 @@ https://arxiv.org/abs/1206.1901
 In the canonical presentation of Hamiltonian Monte Carlo, the momentum variable is often negated after the leapfrog trajectory to ensure exact time-reversal symmetry of the proposal.
 
 In this minimal implementation, the momentum is **resampled independently at every HMC step and discarded after the trajectory**, so explicit momentum flipping is not required. This keeps the code simple while preserving the sampler's correctness.
+
+## Example Plots
+
+### Histogram vs Analytic Distribution
+![Histogram](hmc_histogram.png)
+
+### Markov Chain Trace
+![Trace](hmc_trace.png)
